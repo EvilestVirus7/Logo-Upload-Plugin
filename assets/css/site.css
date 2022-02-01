@@ -1,0 +1,23 @@
+.container-logos {
+  border: 2px #1d2327 solid;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 4px rgb(77, 76, 76);
+}
+
+.collections-logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.collections-logos .image {
+  width: 500px;
+  align-self: center;
+}
+
+.collections-logos .image img {
+  height: auto;
+  width: 100%;
+}
