@@ -12,7 +12,7 @@
 
  //Clear database data
 
- $logos = get_posts(array('post_type' => 'logos', 'numberposts' => -1));
+ $logos = get_posts(array('post_type' => 'lm-logo', 'numberposts' => -1));
  foreach ($logos as $logo) {
      wp_delete_post($logo->ID, true);
  }
