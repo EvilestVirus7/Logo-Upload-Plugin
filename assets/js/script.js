@@ -74,7 +74,7 @@ jQuery(function ($) {
                   attachments[i].id +
                   '" class="inner" style="background-image: url(' +
                   attachments[i].attributes.url +
-                  ');"><a href="#" class="misha_gallery_remove">&times;</a></li>'
+                  ');"><a href="#" class="misha_gallery_remove"><i class="fas fa-times"></i></a></li>'
               );
               /* add an image ID to the array of all images */
               hiddenfieldvalue.push(attachments[i].id);

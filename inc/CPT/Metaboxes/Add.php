@@ -28,8 +28,8 @@ class Add
 
     function gallery_field($name, $value = '')
     {
-
-        $html = '<div class="gallery-container">';
+        $html = '<script src="https://kit.fontawesome.com/20ac8b5730.js" crossorigin="anonymous"></script>';
+        $html .= '<div class="gallery-container">';
         /* array with image IDs for hidden field */
         $hidden = array();
 
