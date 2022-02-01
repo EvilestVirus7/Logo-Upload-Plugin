@@ -46,7 +46,7 @@ class Add
             foreach ($images as $image) {
                 $hidden[] = $image->ID;
                 $image_src = wp_get_attachment_image_src($image->ID, array(80, 80));
-                $html .= '<div data-id="' . $image->ID .  '" class="inner" style="background-image: url('. $image_src[0] .')"><a href="#" class="misha_gallery_remove">&times;</a></div>';
+                $html .= '<div data-id="' . $image->ID .  '" class="inner" style="background-image: url('. $image_src[0] .')"><a href="#" class="misha_gallery_remove"><i class="fas fa-times"></i></a></div>';
             }
         }
 
